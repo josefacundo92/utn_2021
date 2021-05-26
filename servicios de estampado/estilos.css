@@ -1,0 +1,294 @@
+/* Generales */
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #f3f3f3;
+}
+
+.parrafos {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.cont-titulos {
+    position: relative;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+.cont-titulos .titulo-seccion {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+    background-color: #f3f3f3;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #212121;
+}
+
+
+.cont-titulos .linea {
+    background-color: #d4d4d4;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+/* Encabezado */
+
+header {
+    background-color: #feeb09;
+}
+
+header .container .row .col-izq .logo {
+    max-width: 250px;
+}
+
+header .container .row .col-der .r-sociales .nav-item .nav-link {
+    color: #424242;
+    font-size: 2rem;
+}
+
+header .container .row .col-der .r-sociales .nav-item .nav-link:hover {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+
+/* Menu superior */
+
+.menu-bg {
+    background-color: #212121;
+}
+
+.menu-bg .container .navbar .navbar-nav .nav-item .nav-link {
+    color: #8a8a8a;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.menu-bg .container .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+}
+
+/* Nosotros */
+.nosotros p {
+    color: #979797;
+    font-size: 1rem;
+}
+
+/* banner */
+.banner .cont-banner {
+    box-shadow: 0 0 10px rgb(146, 146, 146);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+/* servicios */
+
+.servicios h5 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    color: #212121;
+    text-transform: capitalize;
+
+}
+
+.servicios p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    color: #000;
+
+}
+
+.servicios .card-servicio {
+    width: 100%;
+    color: #000;
+}
+
+.servicios .cont_info {
+
+    border-radius: 10px;
+    position: relative;
+    width: 90%;
+    background-color: #feeb09;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(146, 146, 146);
+}
+
+/* Testimonios */
+
+
+.bg-testimonios {
+    background-color: #feeb09;
+}
+
+
+.tarjeta-cliente {
+    background-color: #feeb09;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.tarjeta-cliente h3 {
+    font-weight: 700;
+}
+
+.img-cliente {
+    max-width: 150px;
+    min-width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgb(146, 146, 146);
+}
+
+.img-cliente img {
+    width: 100%;
+}
+
+
+/* contacto */
+
+.contacto {
+
+    background-image: url("imgs/bg-contacto.jpg");
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    padding: 24px;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.contacto .cont-formulario {
+    box-shadow: 0 0 10px rgb(37, 37, 37);
+}
+
+
+.contacto .cont-formulario {
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.contacto .formulario {
+    background-color: #fff;
+    padding: 30px;
+
+}
+
+.contacto .formulario h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #212121
+}
+
+
+.contacto .formulario .input-formulario {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #979797;
+    font-size: 0.9rem;
+
+}
+
+.contacto .formulario .mensaje {
+    resize: none;
+
+}
+
+.contacto .btn-enviar {
+
+    background-color: #212121;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.contacto .btn-enviar:hover {
+    background-color: #feeb09;
+    color: #000;
+}
+
+
+
+.foto {
+    background-image: url("imgs/foto-contacto.jpg");
+    background-size: cover;
+ 
+}
+
+
+/* pie de sitio */
+
+footer {
+    color: #8a8a8a;
+    background-color: #000;
+}
+
+footer .container .row .r-sociales-footer .nav-item .nav-link {
+    color: #8a8a8a;
+    font-size: 1.2rem;
+}
+
+footer .container .row .r-sociales-footer .nav-item .nav-link:hover {
+    color: #ffffff;
+
+}
+
+@media (max-width: 767px) {
+    .r-sociales {
+        display: none;
+    }
+}
+
+
+/* botón volver arriba */
+
+.cont-flecha {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    margin-right: 0px;
+}
+
+.icono-flecha {
+    font-size: 40px;
+    color: #8a8a8a;
+}
